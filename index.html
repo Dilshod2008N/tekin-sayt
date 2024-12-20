@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ovozli Sayt</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Audio Player</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Saytga xush kelibsiz!</h1>
-    <!-- Musiqa faylini avtomatik ijro etish -->
-    <audio id="alertSound" src="https://raw.githubusercontent.com/Dilshod2008N/tekin-sayt/main/my-audio.mp3" autoplay></audio>
+  <div class="container">
+    <h1>Welcome to the Game</h1>
+    <button id="playButton">O‘yinni boshlash</button>
+  </div>
+
+  <audio id="audioPlayer" src="https://raw.githubusercontent.com/Dilshod2008N/tekin-sayt/main/my-audio.mp3" loop></audio>
+
+  <script src="script.js"></script>
 </body>
 </html>
